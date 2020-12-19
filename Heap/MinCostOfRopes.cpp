@@ -22,7 +22,7 @@ int main() {
 
 long long minCost(long long arr[], long long n) {
     // Your code here
-    priority_queue<int,vector<int>,greater<int> >pq;//Min heap
+    priority_queue<long long ,vector<long long>,greater<long long> >pq;//Min heap
    
     for(long long i=0;i<n;i++)
         pq.push(arr[i]);
